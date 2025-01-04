@@ -54,7 +54,6 @@ window.addEventListener('keydown', (event) => {
                 else if(lside === 60 && !(tside < 75) && tside <= 85 ){}
                 else if(lside === 75 && !(tside < 20) && tside <= 25 ){}
                 else if(lside === 75 && !(tside < 35) && tside <= 70 ){}
-                
                 else{lside = lside + move;}}
         
     box.style.left = lside + "%";
