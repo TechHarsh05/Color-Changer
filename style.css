@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-section{
+#Game{
     height: 50vh;
     width: 50vw;
     background-color: yellow;
@@ -22,9 +22,10 @@ section{
 #runner{
     height: 5vh;
     width: 5vw;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
     border-radius: 50%;
+    border: 2px solid black;
     text-align: center;
     font-size: 2em;
     font-weight: 700;
@@ -101,17 +102,37 @@ section{
     margin-top: 20vh;
     height: 5vh;
     width: 5vw;
-    background-color: rgb(33, 210, 33);
+    /* background-color: rgb(33, 210, 33); */
     left: 20vw;
     z-index: 0;
     border-radius: 10px;
 }
 
+.colorChanger{
+    position: relative;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 50%;
+}
+#c2{
+    margin-top: 35vh;
+}
+#c3{
+    margin-top: 45vh;
+    left: 20vw;
+}
+#c4{
+    left: 5vw;
+    margin-top: 10vh;
+}
+#c5{
+    margin-top: 40vh;
+    right: 30vw;
+}
 img{
     background-color: white;
     margin-top: 70vh;
     height: 10vh;
-    color: white;
     cursor: pointer;
 }
 
